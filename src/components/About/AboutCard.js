@@ -8,9 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Shubham kumar </span>
-            from <span className="purple"> Bhagalpur(Bihar), India.</span>
-            <br />I have done B-tech in Poornima Institute of Engineering & Technology
+             I am <span className="purple">Shubham kumar </span>
+             with expertise in <span className="purple"> ReactJS and Redux,</span>
+            <br />passionate about creating dynamic, responsive, and user-friendly web applications.
+            <br />
+            <br />
+            
+          </p>
+          <p style={{ textAlign: "justify" }}>
+          I am from Bhagalpur, Bihar, India, and have completed my B.Tech from Poornima Institute of Engineering & Technology from Jaipur. With over 2 years of experience in frontend development, I have honed my skills in crafting modern interfaces and integrating APIs to enhance functionality.
             <br />
             <br />
             
@@ -26,11 +32,6 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Shubham</footer>
         </blockquote>
       </Card.Body>
     </Card>
