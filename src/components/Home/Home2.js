@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/shubham.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -23,13 +22,13 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> HTML,CSS,Javascript,Github,ReactJS,Bootstrap</b>
+                <b className="purple"> HTML,CSS,Tailwid CSS,Javascript,ReactJS, Redux ,Bootstrap,Github</b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Frontend Developer and Rest API </b> and
+                <b className="purple">Frontend Developer and Fetch Rest API </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Deep Learning and Natural Launguage Processing.
@@ -38,7 +37,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for Frontend Developer
-              with <b className="purple">ReactJS</b> and
+              with <b className="purple">ReactJS And Redux</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -53,7 +52,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img  height={100} style={{maxWidth:"60%" , radius:'10%'}} src={myImg} className="img-fluid " alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -72,16 +71,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/shubham70625841"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
